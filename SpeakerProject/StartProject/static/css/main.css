@@ -1,0 +1,20 @@
+ul.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+  }
+
+  ul.horizontal-list li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+  }
+
+  /* Optional: If you want to remove the default bullet points */
+  ul.horizontal-list li::before {
+    content: none;
+  }
+  a{
+    color: black;
+    /* text-decoration: none; */
+  }
